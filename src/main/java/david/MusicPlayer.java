@@ -48,7 +48,7 @@ public class MusicPlayer {
 
     public void playMusic(){
         for(int i = 0; i<musicList.size(); i++){
-            System.out.println("Playing: " + musicList.get(i));
+            System.out.println("Playing: " + musicList.get(i).getSong());
         }
     }
 }
